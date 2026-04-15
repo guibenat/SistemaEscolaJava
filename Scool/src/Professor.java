@@ -1,7 +1,7 @@
 public class Professor extends Pessoa{
     private String disciplina;
 
-    public String getDisciplina() {
+    public String getdisciplina() {
         return disciplina;
     }
 
@@ -17,6 +17,6 @@ public class Professor extends Pessoa{
     @Override
 
     public void apresentar(){
-        System.out.printf("Sou o professor %s, leciono %s.", getNome(), getDisciplina());
+        System.out.printf("Sou o professor %s, leciono %s.", getNome(), getdisciplina());
     }
 }
